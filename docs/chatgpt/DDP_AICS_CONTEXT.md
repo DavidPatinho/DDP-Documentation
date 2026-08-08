@@ -8,8 +8,8 @@
 
 - Official Documentation Repository: `https://github.com/DavidPatinho/DDP-Documentation`
 - Branch: `main`
-- ZIP download URL: `https://github.com/DavidPatinho/DDP-Documentation/raw/main/docs/chatgpt/DDP_AICS_CONTEXT.zip`
-- Bundle download URL: `https://github.com/DavidPatinho/DDP-Documentation/raw/main/docs/chatgpt/DDP_AICS_CONTEXT.md`
+- ZIP download URL: `https://raw.githubusercontent.com/DavidPatinho/DDP-Documentation/main/docs/chatgpt/DDP_AICS_CONTEXT.zip`
+- Bundle download URL: `https://raw.githubusercontent.com/DavidPatinho/DDP-Documentation/main/docs/chatgpt/DDP_AICS_CONTEXT.md`
 
 ---
 
@@ -244,8 +244,8 @@ IMPORTANTE: No intentes navegar GitHub por tu cuenta. El usuario te proporciona
 el paquete de contexto (archivo adjunto o enlace de descarga).
 
 1. Usa el Context Pack oficial (configuración del proyecto):
-   - Markdown (recomendado subir este archivo): https://github.com/DavidPatinho/DDP-Documentation/raw/main/docs/chatgpt/DDP_AICS_CONTEXT.md
-   - ZIP: https://github.com/DavidPatinho/DDP-Documentation/raw/main/docs/chatgpt/DDP_AICS_CONTEXT.zip
+   - Markdown (recomendado subir este archivo): https://raw.githubusercontent.com/DavidPatinho/DDP-Documentation/main/docs/chatgpt/DDP_AICS_CONTEXT.md
+   - ZIP: https://raw.githubusercontent.com/DavidPatinho/DDP-Documentation/main/docs/chatgpt/DDP_AICS_CONTEXT.zip
    - Rutas en el repo de docs: docs/chatgpt/DDP_AICS_CONTEXT.md · docs/chatgpt/DDP_AICS_CONTEXT.zip
    Si el usuario ya ha adjuntado el archivo, úsalo directamente sin descargar.
 
@@ -1095,10 +1095,10 @@ Context Pack Zip Path:
 docs/chatgpt/DDP_AICS_CONTEXT.zip
 
 Context Pack Download URL:
-https://github.com/DavidPatinho/DDP-Documentation/raw/main/docs/chatgpt/DDP_AICS_CONTEXT.zip
+https://raw.githubusercontent.com/DavidPatinho/DDP-Documentation/main/docs/chatgpt/DDP_AICS_CONTEXT.zip
 
 Context Pack Markdown Download URL:
-https://github.com/DavidPatinho/DDP-Documentation/raw/main/docs/chatgpt/DDP_AICS_CONTEXT.md
+https://raw.githubusercontent.com/DavidPatinho/DDP-Documentation/main/docs/chatgpt/DDP_AICS_CONTEXT.md
 
 ---
 

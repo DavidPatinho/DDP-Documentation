@@ -11,8 +11,8 @@ ChatGPT often **cannot browse GitHub**. Use this pack instead.
 
 ## Download links (public docs repo)
 
-- ZIP: https://github.com/DavidPatinho/DDP-Documentation/raw/main/docs/chatgpt/DDP_AICS_CONTEXT.zip
-- Markdown: https://github.com/DavidPatinho/DDP-Documentation/raw/main/docs/chatgpt/DDP_AICS_CONTEXT.md
+- ZIP: https://raw.githubusercontent.com/DavidPatinho/DDP-Documentation/main/docs/chatgpt/DDP_AICS_CONTEXT.zip
+- Markdown: https://raw.githubusercontent.com/DavidPatinho/DDP-Documentation/main/docs/chatgpt/DDP_AICS_CONTEXT.md
 
 ## How to use with ChatGPT
 

@@ -62,10 +62,10 @@ Context Pack Zip Path:
 docs/chatgpt/DDP_AICS_CONTEXT.zip
 
 Context Pack Download URL:
-https://github.com/DavidPatinho/DDP-Documentation/raw/main/docs/chatgpt/DDP_AICS_CONTEXT.zip
+https://raw.githubusercontent.com/DavidPatinho/DDP-Documentation/main/docs/chatgpt/DDP_AICS_CONTEXT.zip
 
 Context Pack Markdown Download URL:
-https://github.com/DavidPatinho/DDP-Documentation/raw/main/docs/chatgpt/DDP_AICS_CONTEXT.md
+https://raw.githubusercontent.com/DavidPatinho/DDP-Documentation/main/docs/chatgpt/DDP_AICS_CONTEXT.md
 
 ---
 

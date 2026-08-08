@@ -36,7 +36,7 @@ frontend, Strategy, Attribution, Planner ni Coach de producto.
 | Prioridad | Ítem |
 |-----------|------|
 | **Siguiente gran fase** | Coach en tiempo real / Ingeniero de pista |
-| Config | Publicar `https://github.com/DavidPatinho/DDP-Documentation` (`py -m tools.pms.publish_docs --prepare` + push) |
+| Config | Context Pack + publish docs (`generate_context_pack` → `publish_docs --prepare` → push repo de docs en `PROJECT_CONFIGURATION`) |
 | MEDIO | KI-001 / KI-002 |
 | BAJO | Resto de KNOWN_ISSUES |
 

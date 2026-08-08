@@ -4,13 +4,12 @@
 >
 > Ningún otro documento debe duplicar estos valores (URLs, rama, rutas).
 > Si cambia el repositorio de documentación, **solo se edita este archivo**;
-> después se regenera el ChatGPT Startup Prompt:
+> después regenera prompt + context pack:
 >
 > ```bash
+> py -m tools.pms.generate_context_pack --apply
 > py -m tools.pms.update_ai_bootstrap --refresh-prompt --apply
 > ```
->
-> También se regenera automáticamente desde `/close-phase`.
 
 **Última actualización:** 2026-08-08
 
@@ -52,14 +51,31 @@ docs/project/BOOTSTRAP.md
 
 ---
 
+## ChatGPT Context Pack
+
+> ChatGPT normalmente **no puede navegar GitHub**. Usa este paquete.
+
+Context Pack Path:
+docs/chatgpt/DDP_AICS_CONTEXT.md
+
+Context Pack Zip Path:
+docs/chatgpt/DDP_AICS_CONTEXT.zip
+
+Context Pack Download URL:
+https://github.com/DavidPatinho/DDP-Documentation/raw/main/docs/chatgpt/DDP_AICS_CONTEXT.zip
+
+Context Pack Markdown Download URL:
+https://github.com/DavidPatinho/DDP-Documentation/raw/main/docs/chatgpt/DDP_AICS_CONTEXT.md
+
+---
+
 ## Rules
 
-1. **Single source:** URL, rama y rutas oficiales solo aquí.
-2. **No duplication:** ningún otro documento escribe la URL a mano.
-3. **Regeneration:** cambiar este archivo ⇒ regenerar ChatGPT Startup Prompt.
-4. **ChatGPT** usa este repositorio público como fuente de documentación.
-5. Publicar solo documentación (sin código de producto). Flujo:
-   `py -m tools.pms.publish_docs --prepare`
+1. **Single source:** URL, rama, rutas y enlaces de pack solo aquí.
+2. **No duplication:** ningún otro documento escribe esas URLs a mano (excepto el prompt generado).
+3. Regenerar pack + prompt tras cambios de contexto:
+   `generate_context_pack` → `update_ai_bootstrap` → `publish_docs --prepare` → push docs repo.
+4. Para ChatGPT: el usuario **descarga/sube** el context pack; no hace falta que ChatGPT entre en GitHub.
 
 ---
 

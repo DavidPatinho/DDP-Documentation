@@ -174,13 +174,11 @@ Procedimiento **obligatorio** para cualquier IA (Cursor, ChatGPT u otra):
 
 1. Leer **este** documento (`AI Bootstrap Path` en
    [`PROJECT_CONFIGURATION.md`](PROJECT_CONFIGURATION.md)) completamente.
-2. Acceder al **repositorio oficial de documentación** usando **únicamente** los
-   campos de [`PROJECT_CONFIGURATION.md`](PROJECT_CONFIGURATION.md):
-   - `Official Documentation Repository`
-   - `Repository Branch`
-   - `Repository Docs Path`
-   - **No** usar URLs de chats ni URLs escritas en otros documentos.
-3. Leer obligatoriamente:
+2. **ChatGPT:** no navegar GitHub. Usar el **Context Pack**
+   (`Context Pack Download URL` / archivo adjunto por el usuario).
+   **Cursor / entorno con repo local:** leer el PMS en disco.
+   Campos solo desde [`PROJECT_CONFIGURATION.md`](PROJECT_CONFIGURATION.md).
+3. Leer obligatoriamente (en el pack o en el PMS):
    - `DDP_PHILOSOPHY.md`
    - `ARCHITECTURE.md`
    - `PROJECT_CONTEXT.md`
@@ -214,22 +212,26 @@ Spec: [`PMS_SPEC.md`](PMS_SPEC.md).
 Eres una IA trabajando en el proyecto DDP (Driver Development Program).
 Versión de producto: 4.0 · PMS/AICS: AICS-v2.1
 
-1. Accede al repositorio oficial de documentación definido por el proyecto
-   (valores tomados de docs/project/PROJECT_CONFIGURATION.md — no uses otra URL):
-   - Official Documentation Repository: https://github.com/DavidPatinho/DDP-Documentation
-   - Repository Branch: main
-   - Repository Docs Path: docs/
+IMPORTANTE: No intentes navegar GitHub por tu cuenta. El usuario te proporciona
+el paquete de contexto (archivo adjunto o enlace de descarga).
 
-2. Lee completamente:
-   docs/project/AI_BOOTSTRAP.md
+1. Usa el Context Pack oficial (configuración del proyecto):
+   - Markdown (recomendado subir este archivo): https://github.com/DavidPatinho/DDP-Documentation/raw/main/docs/chatgpt/DDP_AICS_CONTEXT.md
+   - ZIP: https://github.com/DavidPatinho/DDP-Documentation/raw/main/docs/chatgpt/DDP_AICS_CONTEXT.zip
+   - Rutas en el repo de docs: docs/chatgpt/DDP_AICS_CONTEXT.md · docs/chatgpt/DDP_AICS_CONTEXT.zip
+   Si el usuario ya ha adjuntado el archivo, úsalo directamente sin descargar.
 
-3. Sigue al pie de la letra la sección "AI INITIALIZATION PROTOCOL" de ese documento
-   (lectura obligatoria de DDP_PHILOSOPHY, ARCHITECTURE, PROJECT_CONTEXT,
-   PROJECT_STATE, DECISIONS, ADR, HANDOVER y KNOWN_ISSUES).
+2. Lee completamente el Context Pack (incluye AI_BOOTSTRAP y los documentos
+   obligatorios del PMS).
 
-4. Consulta únicamente los documentos necesarios del PMS cuando necesites profundizar.
-   Entrada humana de referencia: docs/project/BOOTSTRAP.md
+3. Sigue al pie de la letra la sección "AI INITIALIZATION PROTOCOL"
+   (DDP_PHILOSOPHY, ARCHITECTURE, PROJECT_CONTEXT, PROJECT_STATE, DECISIONS,
+   ADR, HANDOVER, KNOWN_ISSUES).
+
+4. Consulta únicamente el contenido del pack / PMS cuando necesites profundizar.
    No uses conversaciones anteriores como fuente de verdad.
+   Repo de documentación (referencia, no navegación obligatoria):
+   https://github.com/DavidPatinho/DDP-Documentation (rama main)
 
 5. Reconstruye completamente el contexto del proyecto (misión, pipeline, estado,
    decisiones inmutables, problemas abiertos, próxima gran fase).
